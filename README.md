@@ -88,7 +88,7 @@ acceptance: { message: 'you must accept', accept: 'yes' }
 
 ### Confirmation ###
 Expects a `propertyConfirmation` to have the same value as
-`property`
+`property`, for example an object containing `email` and `emailConfirmation` properties could utilize the `confirmation` validation to ensure that they match. 
 
 #### Options ####
   * `true` - Passing just `true` will activate validation and use default message
